@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url(https://www.nodemy.vn/projects/html-css-js/weather-app/hot.png) no-repeat center/cover;
+    font-family: 'Poppins';
+}
+
+.wrapper {
+    background: url(https://www.nodemy.vn/projects/html-css-js/weather-app/hot.png) no-repeat center/cover;
+    padding: 30px 20px;
+    border-radius: 10px;
+    width: 310px;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-box {
+    height: 22px;
+    width: 270px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    opacity: 60%;
+    font-size: 18px;
+    border-radius: 0 15px 0 15px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.423);
+}
+
+.err {
+    color: white;
+    margin-top: 50px;
+    display: none;
+}
+
+.err h1 {
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.511);
+}
+
+.content {
+    margin-top: 40px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.place {
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.53);
+}
+
+.time{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.temp {
+    background-color: rgba(255, 255, 255, 0.393);
+    color: white;
+    width: 220px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.514);
+}
+
+.temp span{
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.47);
+}
+
+.short-desc h3{
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.53);
+    margin-top: 20px;
+}
+
+.informations {
+    margin-top: 30px;
+    display: flex;
+    font-size: 16px;
+}
+
+.detail-informations {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 16px;
+}
+
+.detail-informations i {
+    margin-bottom: 16px;
+}
+
+
