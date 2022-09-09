@@ -19,7 +19,7 @@ body {
     background: url(https://www.nodemy.vn/projects/html-css-js/weather-app/hot.png) no-repeat center/cover;
     padding: 30px 20px;
     border-radius: 10px;
-    width: 310px;
+    max-width: 500px;
     height: 520px;
     display: flex;
     align-items: center;
